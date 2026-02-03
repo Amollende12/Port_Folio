@@ -1,73 +1,48 @@
-# Welcome to your Lovable project
+# Amol Lende – Portfolio Website
 
-## Project info
+Welcome to my personal portfolio website repository.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This project represents my work, skills, and academic projects as a **Web Developer and Software Engineering student**. The portfolio is designed to be clean, responsive, and user-friendly.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 👨‍💻 About Me
 
-**Use Lovable**
+I am passionate about web development and software engineering. I enjoy building practical projects and continuously improving my technical skills through hands-on learning.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+My main interests include frontend development, database management, and creating real-world applications.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Skills
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend:** HTML, CSS, JavaScript, React  
+- **Programming Languages:** Java, C++, TypeScript  
+- **Database:** MySQL, SQL  
+- **Tools & Platforms:** Git, GitHub, VS Code  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Projects
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🏥 Health Tracker Website
+A web application focused on monitoring daily routine, sleep, stress, and overall wellness.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 📚 Library Management System
+A Java-based system with MySQL backend to manage books, users, and fine calculations efficiently.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🧠 Academic & Mini Projects
+Various projects related to DBMS, operating systems, and software development concepts.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 📫 Contact
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Email:** amollende02@gmail.com  
+- **GitHub:** https://github.com/amollende02  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📄 License
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open for learning and personal reference.
