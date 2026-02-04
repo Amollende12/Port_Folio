@@ -1,48 +1,43 @@
-# Amol Lende – Portfolio Website
+# 🚀 Project Name
 
-Welcome to my personal portfolio website repository.
-
-This project represents my work, skills, and academic projects as a **Web Developer and Software Engineering student**. The portfolio is designed to be clean, responsive, and user-friendly.
-
----
-
-## 👨‍💻 About Me
-
-I am passionate about web development and software engineering. I enjoy building practical projects and continuously improving my technical skills through hands-on learning.
-
-My main interests include frontend development, database management, and creating real-world applications.
+A modern, responsive web application built using React and TypeScript.  
+This project focuses on clean UI, performance, and scalability using modern frontend tools.
 
 ---
 
-## 🛠️ Skills
+## 📌 Project Overview
 
-- **Frontend:** HTML, CSS, JavaScript, React  
-- **Programming Languages:** Java, C++, TypeScript  
-- **Database:** MySQL, SQL  
-- **Tools & Platforms:** Git, GitHub, VS Code  
-
----
-
-## 📂 Projects
-
-### 🏥 Health Tracker Website
-A web application focused on monitoring daily routine, sleep, stress, and overall wellness.
-
-### 📚 Library Management System
-A Java-based system with MySQL backend to manage books, users, and fine calculations efficiently.
-
-### 🧠 Academic & Mini Projects
-Various projects related to DBMS, operating systems, and software development concepts.
+This project is developed as part of my personal/academic work to demonstrate skills in:
+- Frontend development
+- Component-based architecture
+- Modern styling frameworks
+- Version control with Git & GitHub
 
 ---
 
-## 📫 Contact
+## 🛠️ Technologies Used
 
-- **Email:** amollende02@gmail.com  
-- **GitHub:** https://github.com/amollende02  
+- Vite
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
 
 ---
 
-## 📄 License
+## 📂 Project Setup (Run Locally)
 
-This project is open for learning and personal reference.
+Follow these steps to run the project on your local machine:
+
+```sh
+# Clone the repository
+git clone <YOUR_GITHUB_REPO_URL>
+
+# Navigate to the project folder
+cd <PROJECT_FOLDER_NAME>
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
