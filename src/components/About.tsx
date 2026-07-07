@@ -1,11 +1,20 @@
 import { GraduationCap, MapPin, Calendar } from "lucide-react";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const About = () => {
+  const header = useScrollReveal();
+  const bio = useScrollReveal<HTMLDivElement>({ threshold: 0.1 });
+  const edu = useScrollReveal<HTMLDivElement>({ threshold: 0.1 });
+
   return (
     <section id="about" className="section-padding bg-background">
       <div className="container mx-auto px-4 md:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div
+          ref={header.ref as React.RefObject<HTMLDivElement>}
+          className={`text-center mb-16 transition-all duration-700 ${header.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
+        >
           <p className="text-accent font-medium uppercase tracking-wider mb-2">
             Get to Know Me
           </p>
@@ -14,11 +23,15 @@ const About = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Bio */}
-          <div>
+          <div
+            ref={bio.ref}
+            className={`transition-all duration-700 delay-100 ${bio.isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"
+              }`}
+          >
             <h3 className="font-display text-2xl font-semibold text-foreground mb-6">
               Aspiring Software Developer & Analyst
             </h3>
-            
+
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 I'm a passionate Computer Engineering student with a strong foundation
@@ -64,7 +77,11 @@ const About = () => {
           </div>
 
           {/* Education Timeline */}
-          <div>
+          <div
+            ref={edu.ref}
+            className={`transition-all duration-700 delay-200 ${edu.isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-8"
+              }`}
+          >
             <h3 className="font-display text-2xl font-semibold text-foreground mb-6 flex items-center gap-3">
               <GraduationCap className="text-accent" />
               Education
@@ -78,7 +95,7 @@ const About = () => {
               <div className="space-y-6">
                 <div className="relative pl-12">
                   <div className="absolute left-2 top-2 w-5 h-5 rounded-full bg-accent border-4 border-background shadow" />
-                  <div className="bg-card p-6 rounded-2xl shadow-card hover:shadow-card-hover transition-shadow">
+                  <div className="bg-card p-6 rounded-2xl shadow-card hover:shadow-card-hover transition-shadow hover:-translate-y-1 duration-300">
                     <span className="inline-block px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium mb-3">
                       2023 - 2027
                     </span>
@@ -86,10 +103,10 @@ const About = () => {
                       B.Tech in Computer Engineering
                     </h4>
                     <p className="text-muted-foreground mt-1">
-                      Sanjivani College of Engineering
+                      Sanjivani College of Engineering Kopargaon
                     </p>
                     <p className="text-sm text-muted-foreground mt-2">
-                      Currently in 3rd year, focusing on software development,
+                      Currently in last year, focusing on software development,
                       data structures, and web technologies.
                     </p>
                   </div>
@@ -97,7 +114,7 @@ const About = () => {
 
                 <div className="relative pl-12">
                   <div className="absolute left-2 top-2 w-5 h-5 rounded-full bg-secondary border-4 border-background shadow" />
-                  <div className="bg-card p-6 rounded-2xl shadow-card hover:shadow-card-hover transition-shadow">
+                  <div className="bg-card p-6 rounded-2xl shadow-card hover:shadow-card-hover transition-shadow hover:-translate-y-1 duration-300">
                     <span className="inline-block px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm font-medium mb-3">
                       Completed
                     </span>
